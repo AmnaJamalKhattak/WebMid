@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import { Button } from "@/Components/ui/button";
 import { Input } from "@/Components/ui/input";
 import { Label } from "@/Components/ui/label";
@@ -10,10 +11,18 @@ function Login() {
     password: '',
   });
 
+  const navigate = useNavigate(); 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // Handle login submission logic here
+
+    // Sample Login
+    if (formData.email === "manager@example.com" && formData.password === "123456") {
+      navigate("/managerDashboard"); // 
+    } else {
+      alert("Invalid credentials");
+    }
   };
 
   const handleChange = (e) => {
@@ -34,11 +43,7 @@ function Login() {
 
       {/* Website Logo */}
       <a href="/" className="absolute top-4 left-4 md:top-6 md:left-6 z-10">
-        <img
-          src="/assets/welcome.png"
-          alt="Website Logo"
-          className="h-12 md:h-16 w-auto"
-        />
+        <img src="/assets/welcome.png" alt="Website Logo" className="h-12 md:h-16 w-auto" />
       </a>
 
       {/* Centered Card */}
