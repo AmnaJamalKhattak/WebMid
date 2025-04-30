@@ -10,10 +10,10 @@ function AboutSection() {
         {/* Hero/Introduction Section */}
         <div className="text-center mb-16 md:mb-20">
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-6">
-            <span className="text-blue-600">Reimagining</span> Fashion Advertising with <span className="text-violet-600">AI</span>
+            <span className="text-yellow-400">Reimagining</span> Fashion Advertising with <span className="text-yellow-500">AI</span>
           </h2>
           <p className="text-3xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto font-medium">
-            At <span className="font-bold text text-yellow-500 dark:text-blue-400">AdVance</span>, we're reimagining how fashion brands create advertisements.
+            At <span className="font-bold text text-yellow-400 dark:text-yellow-400">AdVance</span>, we're reimagining how fashion brands create advertisements.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center mb-16 md:mb-20">
           <div className="md:col-span-1">
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-              <span className="text-violet-600">Out with the Old, In with the New</span>
+              <span className="text-yellow-400">Out with the Old, In with the New</span>
             </h3>
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-4 font-medium">
               Gone are the days of expensive photoshoots, long production timelines, and creative bottlenecks.
@@ -42,7 +42,7 @@ function AboutSection() {
           </div>
           <div className="md:col-span-1">
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-              <span className="text-violet-600">Beyond Automation</span>: Creativity, Collaboration, Community
+              <span className="text-yellow-400">Beyond Automation</span>: Creativity, Collaboration, Community
             </h3>
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-4 font-medium">
               But we’re not just about automation. We're about creative freedom, collaboration, and community.
@@ -57,7 +57,7 @@ function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center mb-16 md:mb-20">
         <div className="md:col-span-1">
             <h3 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
-            <span className="text-violet-600">Empower Your Tools With Us</span>
+            <span className="text-yellow-400">Empower Your Tools With Us</span>
             </h3>
 
             <p className="text-xl text-gray-700 dark:text-gray-300 font-medium mb-4">
@@ -85,7 +85,7 @@ function AboutSection() {
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8 font-medium">
             Join the next generation of fashion marketers — and let your creativity flow faster than ever before.
           </p>
-          <Button size="lg" className="bg-violet-600 hover:bg-violet-700 text-white text-lg font-semibold px-8 py-4 rounded shadow-md">
+          <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-white text-lg font-semibold px-8 py-4 rounded shadow-md">
             Get Started with AdVance
           </Button>
         </div>

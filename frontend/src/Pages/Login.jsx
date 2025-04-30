@@ -4,6 +4,8 @@ import { Button } from "@/Components/ui/button";
 import { Input } from "@/Components/ui/input";
 import { Label } from "@/Components/ui/label";
 import { Card, CardHeader, CardContent, CardTitle, CardFooter } from "@/Components/ui/card";
+import { ArrowLeft } from "lucide-react";
+
 
 function Login() {
   const [formData, setFormData] = useState({
@@ -43,7 +45,7 @@ function Login() {
 
       {/* Website Logo */}
       <a href="/" className="absolute top-4 left-4 md:top-6 md:left-6 z-10">
-        <img src="/assets/welcome.png" alt="Website Logo" className="h-12 md:h-16 w-auto" />
+        <ArrowLeft />
       </a>
 
       {/* Centered Card */}
@@ -73,7 +75,7 @@ function Login() {
                 <Label htmlFor="password">Password</Label>
                 <a 
                   href="/forgot-password" 
-                  className="text-xs text-blue-600 hover:underline dark:text-blue-400"
+                  className="text-xs text-yellow-400 hover:underline dark:text-yellow-400"
                 >
                   Forgot password?
                 </a>
@@ -90,7 +92,7 @@ function Login() {
           
             <Button
               type="submit"
-              className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium mt-6"
+              className="w-full  bg-yellow-400  hover:bg-yellow-500 text-white font-medium mt-6"
             >
               Log In
             </Button>
@@ -100,7 +102,7 @@ function Login() {
         <CardFooter className="flex justify-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
             Don't have an account?{' '}
-            <a href="/signup" className="text-blue-600 hover:underline dark:text-blue-400">
+            <a href="/signup" className="text-yellow-400 hover:underline dark:text-yellow-400">
               Sign up
             </a>
           </p>

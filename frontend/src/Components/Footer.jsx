@@ -9,11 +9,15 @@ function Footer() {
       <div className="container mx-auto px-4 md:px-6 lg:px-8 space-y-10">
         
         {/* Top Section */}
-        <div className="flex flex-col md:flex-row justify-between gap-12">
+        <div className="flex flex-col md:flex-row justify-between gap-10">
           
           {/* Brand Info */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-yellow-500">AdVance</h3>
+          <div className="space-y-0">
+            <img
+              src="/assets/DarkMode-Logo.png"
+              alt="Light Mode Logo"
+              className="w-[180px] h-[120px] object-contain items-start m-0"
+            />
             <p className="text-md text-gray-400 max-w-sm">
               Empowering fashion brands with AI-driven ad generation. Your style, your story—automated.
             </p>

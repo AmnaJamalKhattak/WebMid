@@ -12,35 +12,33 @@ function HeroSection() {
 
   return (
     <section className="relative pt-20 w-full py-14 md:py-18 lg:py-26 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 overflow-hidden">
-      {/* Background Pattern */}
+      
       <div className="absolute inset-0 opacity-5 dark:opacity-10">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-blue-500/20 to-transparent"></div>
         <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-purple-500/20 to-transparent"></div>
       </div>
 
-      {/* Container for centering content */}
+      
       <div className="container px-4 md:px-6 relative z-10 mx-auto">
-        {/* Removed grid, now stacking content directly */}
-        {/* Wrapper for stacked content with vertical spacing and centering */}
-        <div className="w-full flex flex-col items-center space-y-12"> {/* Added flex-col items-center and space-y for vertical gap */}
-
-          {/* Text Content Block - Centered and max-width */}
-          <div className="max-w-3xl mx-auto text-center space-y-6"> {/* Centered block, limited max-width, centered text */}
-            {/* Heading - Increased font size */}
+        
+        <div className="w-full flex flex-col items-center space-y-12"> 
+          
+          <div className="max-w-3xl mx-auto text-center space-y-6"> 
+            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Create Stunning <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">Fashion Ads</span> with Just a Prompt
+              Create Stunning <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-500 dark:from-yellow-400 to-yellow-500">Fashion Ads</span> with Just a Prompt
             </h1>
-            {/* Paragraph - Added mx-auto to center if max-width is used */}
-            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-lg mx-auto"> {/* Added mx-auto */}
+            
+            <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-lg mx-auto"> 
               Upload your product image, describe the vibe, and let our AI handle the rest.
             </p>
 
-            {/* Button Wrapper - Centered horizontally */}
+            
             <a href="/signup">
             <div className="flex justify-center pt-8"> {/* Use justify-center to center the button */}
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium shadow-lg shadow-blue-500/20 dark:shadow-blue-800/30 transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-400 to-yellow-500 text-white font-medium shadow-lg shadow-blue-500/20 dark:shadow-blue-800/30 transition-all duration-300 transform hover:scale-105"
                 onMouseEnter={() => setIsHovering(true)}
                 onMouseLeave={() => setIsHovering(false)}
               >
